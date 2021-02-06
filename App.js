@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Amplify from 'aws-amplify'
+import config from 'C:/Users/lawso/Documents/AppPI/src/aws-exports'
 
 Amplify.configure(config)
 
