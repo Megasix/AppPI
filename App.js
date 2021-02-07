@@ -1,4 +1,3 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, View, Button, Text } from "react-native";
 import Amplify from "aws-amplify";
