@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-apppi-dev-173103-authRole",
+      "UnauthRoleArn": "arn:aws:iam::409300946603:role/amplify-apppi-dev-173103-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::409300946603:role/amplify-apppi-dev-173103-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-apppi-dev-173103-deployment",
+      "UnauthRoleName": "amplify-apppi-dev-173103-unauthRole",
+      "StackName": "amplify-apppi-dev-173103",
+      "StackId": "arn:aws:cloudformation:us-east-1:409300946603:stack/amplify-apppi-dev-173103/90a97800-68ca-11eb-869c-0ecd7efaa235",
+      "AmplifyAppId": "de99jgretptds"
+    }
+  }
+}
