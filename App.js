@@ -37,7 +37,6 @@ function MapScreen() {
   return (
     <View style={styles.container}>
       <MapView
-        mapType={"satellite"}
         style={StyleSheet.absoluteFillObject}
         provider={MapView.PROVIDER_GOOGLE}
         showsUserLocation={true}
