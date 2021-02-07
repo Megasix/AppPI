@@ -12,4 +12,3 @@ web-build/
 #amplify
 amplify/logs
 .secret-*
-node_modules
