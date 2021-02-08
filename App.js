@@ -31,7 +31,7 @@ function HomeScreen({ navigation }) {
 
   return (
     <View style={[styles.container, themeContainerStyle]}>
-      <Text style={themeTextStyle}>Salut Tarek</Text>
+      <Text style={themeTextStyle}>Home Screen</Text>
       <Button
         title="Ouvrir la Carte"
         color={btnColor}
