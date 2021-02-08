@@ -23,7 +23,7 @@ function App() {
 function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text>Salut Tarek</Text>
+      <Text>Home Screen</Text>
       <Button
         title="Ouvrir la Carte"
         style={styles.BtnStyl}
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   BtnStyl: {
-    backgroundColor: "red",
+    backgroundColor: "grey",
     padding: 10,
     paddingHorizontal: 10,
   },
