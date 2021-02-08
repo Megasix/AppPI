@@ -8,6 +8,8 @@ import "react-native-gesture-handler";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
+const Stack = createStackNavigator();
+
 Amplify.configure(config);
 
 function App() {
@@ -53,8 +55,6 @@ function MapScreen() {
     </View>
   );
 }
-
-const Stack = createStackNavigator();
 
 const styles = StyleSheet.create({
   container: {
