@@ -23,7 +23,7 @@ function App() {
 function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text>Home Screen</Text>
+      <Text>Salut Tarek</Text>
       <Button
         title="Ouvrir la Carte"
         style={styles.BtnStyl}
