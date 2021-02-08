@@ -1,5 +1,6 @@
 {
   "expo": {
+    "userInterfaceStyle": "automatic",
     "name": "AppPI",
     "slug": "AppPI",
     "version": "1.0.0",
