@@ -5,9 +5,8 @@
 *.mobileprovision
 *.orig.*
 web-build/
-settings.json
-packager-info.json
 node_modules
+.expo
 
 # macOS
 .DS_Store
