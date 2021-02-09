@@ -1,5 +1,5 @@
 import React from "react";
-import { AppearanceProvider, useColorScheme } from 'react-native-appearance';
+import { AppearanceProvider, useColorScheme } from "react-native-appearance";
 import { StyleSheet, View, Button, Text, SafeAreaView } from "react-native";
 import Amplify from "aws-amplify";
 import config from "./src/aws-exports";
@@ -24,10 +24,11 @@ function App() {
 function HomeScreen({ navigation }) {
   const colorScheme = useColorScheme();
 
-  const btnColor = colorScheme === 'light' ? 'blue' : 'red';
-  const themeTextStyle = colorScheme === 'light' ? styles.lightThemeText : styles.darkThemeText;
+  const btnColor = colorScheme === "light" ? "blue" : "red";
+  const themeTextStyle =
+    colorScheme === "light" ? styles.lightThemeText : styles.darkThemeText;
   const themeContainerStyle =
-    colorScheme === 'light' ? styles.lightContainer : styles.darkContainer;
+    colorScheme === "light" ? styles.lightContainer : styles.darkContainer;
 
   return (
     <View style={[styles.container, themeContainerStyle]}>
@@ -37,7 +38,7 @@ function HomeScreen({ navigation }) {
         color={btnColor}
         onPress={() => navigation.navigate("Map")}
       ></Button>
-    </View >
+    </View>
   );
 }
 
@@ -63,16 +64,16 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   lightContainer: {
-    backgroundColor: '#ffffff',
+    backgroundColor: "#ffffff",
   },
   darkContainer: {
-    backgroundColor: '#000000',
+    backgroundColor: "#000000",
   },
   lightThemeText: {
-    color: '#000000',
+    color: "#000000",
   },
   darkThemeText: {
-    color: '#ffffff',
+    color: "#ffffff",
   },
 });
 
