@@ -30,7 +30,8 @@
     "react-native-web": "^0.12.3",
     "react-native-web-maps": "^0.3.0",
     "styled-components": "^5.2.1",
-    "yarn": "^1.22.10"
+    "yarn": "^1.22.10",
+    "expo-file-system": "~9.3.0"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",

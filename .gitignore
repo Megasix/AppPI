@@ -4,9 +4,8 @@
 *.key
 *.mobileprovision
 *.orig.*
+.expo
 web-build/
-settings.json
-packager-info.json
 node_modules
 
 # macOS
